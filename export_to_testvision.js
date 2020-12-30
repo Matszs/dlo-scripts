@@ -9,12 +9,7 @@
 
 $(function() {
   console.log('GREASE MONKEY INIT');
-  
-  var exportUsersInterface = function() {
-    console.log($(".ddial_c_frame").contents());
-    
-  };
-  
+   
   
   var isGroupsListPage = (window.location.href.includes("group_list.d2l") !== false);
   
